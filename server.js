@@ -36,6 +36,7 @@ app.use('/ig', instagram);
 app.use('/twimg', twimg);
 app.use('/twvid', twvid);
 app.use('/film', film);
+app.use('/reqData', reqData);
 
 app.listen(PORT, () => {
     console.log(`Server Run on port ${PORT}`)
